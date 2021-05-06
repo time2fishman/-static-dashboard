@@ -2,22 +2,16 @@
 
 # React Static Components
 
-You've been showing off your portfolio and projects to your friends, family and
-classmates and they all say "It's fine. I like it!" But you want more insight.
+![React Dashboard mockup](https://media.git.generalassemb.ly/user/17300/files/4a24d580-ae40-11eb-966b-75de62388298)
 
-So you decide to look into some analytical tools... but wow! They are expensive!
-You decide to make your own.
+Use React to recreate this mockup.
 
-You visualize a dashboard with components for reviews, average rating, sentiment
-analysis and website visitors
+## Getting Started
 
-![Dashboard Wireframe](https://i.imgur.com/5mCo2tV.png)
+- Breakdown the UI into components.  Consider what parts of the UI are _reusable_.
+- Decide on the mark up that you'd like to generate.
 
-Try to recreate this wireframe with React. Be sure to create a few components
-(e.g. app, sidebar, reviews, average rating, sentiment analysis, website
-visitors).
-
-## Instructions
+## Set Up
 
 1. Change into your sandbox with `cd ~/sei/sandbox`.
 1. Fork and clone this repository with `git clone git@git.generalassemb.ly:SEIR-412/react-dashboard.git`.
@@ -28,23 +22,7 @@ visitors).
 
 ## Requirements
 
-Build out the above wireframe in react components. This is all static, so you
-don't need to do anything with props unless you want to.
-
-## Get Started
-
-- Consider the mark up that you'd like to generate.
-- What parts of the UI are reusable?
-
-### Bonus: Dark Theme!
-
-Keep going! Add more details, add some css
-
-![Cool Looking Dashboard](https://i.imgur.com/3kPnrAq.png)
-
-Dashboard example found here:
-https://medium.muz.li/30-handpicked-excellent-dashboards-347e2407a057
-
+Build out the above wireframe in react components. Focus on getting the components to render the different content first.  After you get your content to render, add some styles to your site!  Submit a PR when you're done.
 
 ## License
 
