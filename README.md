@@ -19,36 +19,22 @@ visitors).
 
 ## Instructions
 
-1. Fork and clone this repository.
-1. Change into the new directory.
-1. Follow the setup instructions.
-1. Fulfill the listed requirements.
-
-Unless otherwise specified on the calendar or by an instructor, homework is due
-the next morning by 9:00am.
+1. Change into your sandbox with `cd ~/sei/sandbox`.
+1. Fork and clone this repository with `git clone git@git.generalassemb.ly:SEIR-412/react-dashboard.git`.
+1. Change into the new directory with `cd react-dashboard`.
+1. Confirm that you're actually in you're in your `react-dashboard` directory and then run `npx create-react-app .`
+1. After it finishes installing and you should see the message that reads `Happy hacking!`. Once you're back at the prompt, type `code .` to open up the project in VS Code.
+1. Toggle open the NPM SCRIPTS area in the Explorer pane in VS Code, hover over the item marked `start`, and then click the "play" button that appears on the right to run your server.
 
 ## Requirements
 
 Build out the above wireframe in react components. This is all static, so you
-don't need to do anything with props or state unless you want to.
-
-When you're finished, submit a pull request.
+don't need to do anything with props unless you want to.
 
 ## Get Started
 
-- how would you get started? What do you need?
-- Think about how many components you need
-- What need to be passed through and what doesn't?
-
-### Set up
-
-From inside this project folder:
-
-- `create-react-app dashboard`
-- `cd` into dashboard
-- open it in your favorite text editor
-- in terminal run `npm start` to track live changes
-- once you confirm that it renders begin building out your dashboard
+- Consider the mark up that you'd like to generate.
+- What parts of the UI are reusable?
 
 ### Bonus: Dark Theme!
 
@@ -59,11 +45,6 @@ Keep going! Add more details, add some css
 Dashboard example found here:
 https://medium.muz.li/30-handpicked-excellent-dashboards-347e2407a057
 
-## Plagiarism
-
-Take a moment to refamiliarize yourself with the
-[Plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md).
-Plagiarized work will not be accepted.
 
 ## License
 
