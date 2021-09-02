@@ -29,6 +29,56 @@ Use React to recreate this mockup.
 
 Unless otherwise stated, assignments are due by 10 am ET the next class day. 
 
+**Hints**:
+
+- The "Products" and "Industry" tabs do not need to be clickable. 
+- You can hardcode the data for the team member cards and make your components static, or if you're ready for a more dynamic approach, copy the data object below into your application. You can then map over the data object shared below and return card components with the appropriate props. 
+
+```js
+const salesData = [
+  {
+    name: 'Jack Mars',
+    handle: '@jack', 
+    initials: 'JM',
+    trend: '3%',
+    increasing: true,
+    numOfSales: 68
+  },
+  {
+    name: 'Irfan Veci',
+    handle: '@veci', 
+    initials: 'IV',
+    trend: '63%',
+    increasing: false,
+    numOfSales: 12
+  },
+  {
+    name: 'Ling Lee',
+    handle: '@llee', 
+    initials: 'LL',
+    trend: '11%',
+    increasing: true,
+    numOfSales: 29
+  },
+  {
+    name: 'Juan Bene',
+    handle: '@juanb', 
+    initials: 'JB',
+    trend: '5%',
+    increasing: true,
+    numOfSales: 45
+  },
+  {
+    name: 'Leona Curtis',
+    handle: '@lecu', 
+    initials: 'LC',
+    trend: '4%',
+    increasing: false,
+    numOfSales: 50
+  },
+]
+```
+
 ## License
 
 1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
