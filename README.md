@@ -13,16 +13,71 @@ Use React to recreate this mockup.
 
 ## Set Up
 
-1. Change into your sandbox with `cd ~/sei/sandbox`.
-1. Fork and clone this repository with `git clone git@git.generalassemb.ly:SEIR-412/react-dashboard.git`.
-1. Change into the new directory with `cd react-dashboard`.
-1. Confirm that you're actually in you're in your `react-dashboard` directory and then run `npx create-react-app .`
-1. After it finishes installing and you should see the message that reads `Happy hacking!`. Once you're back at the prompt, type `code .` to open up the project in VS Code.
-1. Toggle open the NPM SCRIPTS area in the Explorer pane in VS Code, hover over the item marked `start`, and then click the "play" button that appears on the right to run your server.
+1. Change into your homework folder with `cd ~/sei/homework`.
+1. Fork and clone this repository with `git clone <paste ssh url>`.
+1. Change into the new directory with `cd static-dashboard`.
+1. Confirm that you're actually in you're in your `static-dashboard` directory and then run `npx create-react-app .` ... **NOTE THE PERIOD AT THE END!!!**
+1. After it finishes installing, you should see the message that reads `Happy hacking!`. Once you're back at the prompt, type `code .` to open up the project in VS Code.
+1. Run `npm start` to launch the React development server and open your application in the browser at `localhost:3000`. 
 
 ## Requirements
 
-Build out the above wireframe in react components. Focus on getting the components to render the different content first.  After you get your content to render, add some styles to your site!  Submit a PR when you're done.
+- Build out the above wireframe in React components. 
+- Focus on getting the components to render the different content first. How you compose your components and (if you) pass data around is up to you! 
+- After you get your content to render, add some styles to your site! Your application doesn't have to look exactly like the one shown. Submit a PR when you're done.
+- Your React app must compile (i.e., it must run in the browser). If there are errors you can't solve, comment out the error and leave a note explaining what you were trying to do.
+
+Unless otherwise stated, assignments are due by 10 am ET the next class day. 
+
+**Hints**:
+
+- The "Products" and "Industry" tabs do not need to be clickable. 
+- You can hardcode the data for the team member cards and make your components static, or if you're ready for a more dynamic approach, copy the data object below into your application. You can then map over the data object shared below and return card components with the appropriate props. 
+
+```js
+const salesData = [
+  {
+    name: 'Jack Mars',
+    handle: '@jack', 
+    initials: 'JM',
+    trend: '3%',
+    increasing: true,
+    numOfSales: 68
+  },
+  {
+    name: 'Irfan Veci',
+    handle: '@veci', 
+    initials: 'IV',
+    trend: '63%',
+    increasing: false,
+    numOfSales: 12
+  },
+  {
+    name: 'Ling Lee',
+    handle: '@llee', 
+    initials: 'LL',
+    trend: '11%',
+    increasing: true,
+    numOfSales: 29
+  },
+  {
+    name: 'Juan Bene',
+    handle: '@juanb', 
+    initials: 'JB',
+    trend: '5%',
+    increasing: true,
+    numOfSales: 45
+  },
+  {
+    name: 'Leona Curtis',
+    handle: '@lecu', 
+    initials: 'LC',
+    trend: '4%',
+    increasing: false,
+    numOfSales: 50
+  },
+]
+```
 
 ## License
 
